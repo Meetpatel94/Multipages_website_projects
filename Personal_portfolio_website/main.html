@@ -9,22 +9,41 @@
     <link rel="stylesheet" href="css/3_Portfolio.css" />
     <link rel="stylesheet" href="css/4_Contact.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/bg_change_btn.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
   <body>
+    <!--------------------------------BG change Button----------------------------------->
+    <button class="mode">
+      <div class="sun"><i class="fa-solid fa-sun"></i></div>
+      <div class="moon"><i class="fa-solid fa-moon"></i></div>
+    </button>
+
+    <!-------------------------------------Home-------------------------------------->
     <div id="header" class="bounce">
       <div class="container">
         <nav class="nav">
           <img src="./css/images/logo.jpg" class="logo bounce" />
           <ul id="sidemenu">
-            <li class="delay_bounce"><a href="#header">Home</a></li>
-            <li class="delay_bounce"><a href="#about">About</a></li>
-            <li class="delay_bounce"><a href="#services">Services</a></li>
-            <li class="delay_bounce"><a href="#portfolio">Portfolio</a></li>
-            <li class="delay_bounce"><a href="#contact">Contact</a></li>
+            <li class="delay_bounce">
+              <a href="#header" class="first">Home</a>
+            </li>
+            <li class="delay_bounce">
+              <a href="#about" class="second">About</a>
+            </li>
+            <li class="delay_bounce">
+              <a href="#services" class="third">Services</a>
+            </li>
+            <li class="delay_bounce">
+              <a href="#portfolio" class="fourth">Portfolio</a>
+            </li>
+            <li class="delay_bounce">
+              <a href="#contact" class="fifth">Contact</a>
+            </li>
+
             <i class="fas fa-times" onclick="closemenu()"></i>
           </ul>
           <div class="barrs">
@@ -110,7 +129,7 @@
     <!----------------------------------- Services ------------------------------------->
     <div id="services " class="bounce">
       <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title" id="#change">My Services</h1>
         <div class="services-list">
           <div>
             <i class="fa-solid fa-code"></i>
@@ -205,7 +224,7 @@
                 ><i class="fa-brands fa-facebook"></i
               ></a>
               <a href="https://x.com/i/flow/login" target="_blank"
-                ><i class="fa-brands fa-twitter"></i
+                ><i class="fa-brands fa-x-twitter"></i
               ></a>
               <a href="https://www.instagram.com/" target="_blank"
                 ><i class="fa-brands fa-instagram"></i
@@ -247,9 +266,8 @@
         <p>🔘Copyright &copy; 🔘Privacy policy🔘Agreement</p>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="/Js/Home.js"></script>
-    <script src="/Js/Services.js"></script>
-    <script src="/Js/animation.js"></script>
+    <script src="./Js/Home.js"></script>
+    <script src="./Js/Services.js"></script>
+    <script src="./Js/animation.js"></script>
   </body>
 </html>

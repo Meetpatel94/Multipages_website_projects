@@ -19,7 +19,7 @@
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #ababab;
+  color: var(--gColor);
   display: inline-block;
   transition: transform 0.5s;
 }
@@ -42,7 +42,7 @@ form textarea {
   background: #262626;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: var(--wColor);
   font-size: 18px;
   border-radius: 6px;
 }
@@ -68,15 +68,26 @@ form btn2 {
   background: #262626;
   margin-top: 20px;
 }
-.copyright i {
-  color: #ff004f;
+.copyright p {
+  color: #ffffff;
 }
 #msg {
-  color: #ffffff;
   margin-top: 6px;
   display: block;
   background: #f90000;
   /* border: 2px solid white; */
   border-radius: 5px;
   width: 206px;
+}
+.fa-facebook:hover {
+  color: blue;
+}
+.fa-x-twitter:hover:hover {
+  color: rgb(255, 255, 255);
+}
+.fa-instagram:hover {
+  color: red;
+}
+.fa-linkedin:hover {
+  color: rgb(58, 104, 255);
 }

@@ -22,7 +22,3 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
-gsap.from('.bounce', { opacity: 0, duration: 1, delay: 1, y: 10 })
-gsap.from('.nav .delay_bounce', { opacity: 0, duration: 1, delay: 1, y: 30, stagger: 0.2 })
-gsap.from('#about .user_bounce', { opacity: 0, duration: 1, delay: 1, y: 30 })
-gsap.from('.header-text', { opacity: 0, duration: 1.8, delay: 1, y: 30 })

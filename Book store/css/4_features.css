@@ -1,0 +1,108 @@
+/****************** featured *****************/
+.featured .featured-slider .box {
+  width: 25rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+  border: var(--border);
+  text-align: center;
+}
+.featured .featured-slider .box:hover {
+  border: var(--border-hover);
+}
+.featured .featured-slider .box .image {
+  padding: 1rem;
+  background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+.featured .featured-slider .box:hover .image {
+  transform: translateY(6rem);
+}
+.featured .featured-slider .box .image img {
+  height: 25rem;
+}
+.featured .featured-slider .box .icons {
+  border-bottom: var(--border-hover);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 1;
+  transform: translateX(-100%);
+}
+.featured .featured-slider .box:hover .icons {
+  transform: translateX(0%);
+}
+.featured .featured-slider .box .icons a {
+  color: var(--black);
+  font-size: 2.2rem;
+  padding: 1.3rem 1.5rem;
+}
+.featured .featured-slider .box .icons a:hover {
+  background: var(--green);
+  color: #eee;
+}
+.featured .featured-slider .box .content {
+  background: #eee;
+  padding: 1.5rem;
+}
+.featured .featured-slider .box .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+.featured .featured-slider .box .content .price {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding-top: 1rem;
+}
+.featured .featured-slider .box .content .price span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  text-decoration: line-through;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  /* border: var(--border-hover); */
+  height: 4rem;
+  width: 4rem;
+  color: var(--black);
+  background: fff;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: var(--black);
+  color: #fff;
+}
+/***************** newsletter ****************/
+.newsletter {
+  background: url("./images/boy-reading.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: 60px;
+  background-attachment: fixed;
+}
+.newsletter form {
+  max-width: 45rem;
+  margin-left: auto;
+  text-align: center;
+  padding: 5rem 0;
+}
+.newsletter form h3 {
+  font-size: 2.2rem;
+  color: #fff;
+  padding-bottom: 0.7rem;
+  font-weight: normal;
+}
+.newsletter form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  border-radius: 0.5rem;
+  text-rendering: 0.5rem;
+  text-transform: none;
+}

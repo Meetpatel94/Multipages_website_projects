@@ -46,7 +46,7 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
-  background: #fff;
+  background: var(--wColor);
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -63,12 +63,10 @@
   margin: 50px auto;
   width: fit-content;
   border: 1px solid #ff004f;
+  background: #ff004f;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
-  color: #fff;
+  color: var(--wColor);
   transition: background 0.5s;
-}
-.btn:hover {
-  background: #ff004f;
 }

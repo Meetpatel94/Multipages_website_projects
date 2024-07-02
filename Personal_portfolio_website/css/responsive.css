@@ -7,7 +7,10 @@
 }
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url("/css/images/phone-background.png");
+    background-image: url("./images/phone_bg.png");
+  }
+  .mode {
+    display: none;
   }
   .header-text {
     margin-top: 100%;

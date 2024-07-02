@@ -9,6 +9,7 @@
 }
 .services-list div {
   background: #262626;
+  color: var(--wColor);
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
@@ -26,7 +27,7 @@
 }
 .services-list div a {
   text-decoration: none;
-  color: #fff;
+  color: var(--gColor);
   font-size: 12px;
   margin-top: 20px;
   display: inline-block;
